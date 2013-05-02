@@ -1,5 +1,5 @@
 var client = new Usergrid.Client({
-    URI: 'https://usergridstack.dnsdynamic.com',
+    URI: 'http://usergridstack.dnsdynamic.com:8080',
     orgName: 'deneme', //your orgname goes here (not case sensitive)
     appName: 'cowtip', //your appname goes here (not case sensitive)
     logging: true, //optional - turn on logging, off by default
