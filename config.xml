@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "org.camden.cowtipline"
+        id        = "com.globalmaksimum.cowtipline"
         version   = "1.0.0">
     <name>CowTipLine</name>
 
-    <author href="http://www.raymondcamden.com" email="raymondcamden@gmail.com">
-        Raymond Camden
+    <author href="http://www.globalmaksimum.com" email="anil.halil@globalmaksimum.com">
+        Anil Chalil
     </author>
 
     <feature name="http://api.phonegap.com/1.0/device" />
