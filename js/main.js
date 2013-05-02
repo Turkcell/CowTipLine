@@ -113,5 +113,17 @@ function renderResults(results, myLoc) {
 
 //Wrapper for alert so I can dynamically use PhoneGap alert's on device
 function doAlert(str, cb) {
-    if (cb) cb();
+    if (navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/)) {
+        function alertDismissed() {
+            // do something
+        }
+        navigator.notification.alert(
+            str,  // message
+            alertDismissed,         // callback
+            "ERROR",            // title
+            'DONE'                  // buttonName
+        );
+    } else {
+        alert(str);
+    }
 }
